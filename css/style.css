@@ -48,7 +48,7 @@ nav {
 
 /* Typography */
 h1 {
-  font-size: 5rem;
+  font-size: 2rem;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   color: #ffffff;
@@ -88,7 +88,7 @@ button {
   border-radius: 10em;
   border: 2px solid #3498DB;
   background-color: #3498DB;
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
@@ -118,21 +118,21 @@ button:focus {
 }
 
 .col-6 {
-  width: 50%;
+  width: 100%;
 }
 
 .col-4 {
-  width: 33.33%;
+  width: 100%;
 }
 
 .col-3 {
-  width: 25%;
+  width: 100%;
 }
 
 /*** Hero ***/
 .hero {
   background-image: url(https://static.pexels.com/photos/70232/pexels-photo-70232.jpeg);
-  min-height: 100vh;
+  min-height: 80vh;
   background-size: cover;
   text-align: center;
 }
@@ -255,6 +255,7 @@ button:focus {
 }
 
 .portfolio ul {
+  flex-direction: column;
   list-style: none;
   display: inline-flex;
   width: 100%;
@@ -393,10 +394,10 @@ button:focus {
 
 /*** Contact ***/
 .contact {
-  overflow: hidden;
-  width: 90%;
-  max-height: 450px;
+  text-align: center;
   margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 50px;
 }
 
 .right {
@@ -405,7 +406,7 @@ button:focus {
 }
 
 .contact h2 {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 /*** Footer ***/
@@ -431,6 +432,59 @@ footer i {
 
 /*** Media Queries * * */
 @media only screen and (min-width: 1280px) {
+  .col-3 {
+  width:25%;
+  }
+  
+.col-4 {
+  width:33.33%;
+  }
+  
+.col-6 {
+  width:50%;
+  }
+	
+	.hero {
+    min-height: 100vh;
+  }
+
+  .hero-content h1 {
+    font-size: 5rem;
+    padding-top: 20px;
+  }
+
+  .hero button {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+
+  .features p {
+    padding-bottom: 50px;
+  }
+
+  .portfolio ul {
+    flex-direction: row;
+    list-style: none;
+    display: inline-flex;
+    width: 100%;
+}
+
+  .portfolio ul li {
+    margin: 0 auto;
+}
+
+  .contact {
+    text-align: left;
+    padding-bottom: 30px;
+    overflow: hidden;
+    width: 90%;
+    max-height: 450px;
+    margin: 0 auto;
+  }
+  
+  .contact h2 {
+    padding-bottom: 50px;
+  }
 
 }
 
@@ -447,114 +501,74 @@ footer i {
   .col-3 {
     width: 100%;
   }
-
   .col-4 {
     width: 100%;
   }
-
   .col-6 {
     width: 100%;
   }
-
   .hero {
     min-height: 80vh;
   }
-
   .hero-content h1 {
     font-size: 2rem;
     padding-top: 30%;
   }
-
   .hero button {
     font-size: 0.75rem;
     padding: 10px 16px;
   }
-
   .features p {
     padding-bottom: 50px;
   }
-
   .portfolio ul {
     flex-direction: column;
   }
-
   .portfolio li {
     padding-bottom: 20px;
   }
-
   .contact {
     text-align: center;
     padding-bottom: 30px;
   }
-
-
 }
-
 @media only screen and (min-width: 320px) and (max-width: 499px) {
   .col-3 {
     width: 100%;
   }
-
   .col-4 {
     width: 100%;
   }
-
   .col-6 {
     width: 100%;
   }
-
   .hero {
     min-height: 80vh;
   }
-
   .hero-content h1 {
     font-size: 2rem;
     padding-top: 30%;
   }
-
   .hero button {
     font-size: 0.75rem;
     padding: 10px 16px;
   }
-
   .features p {
     padding-bottom: 50px;
   }
-
   .portfolio ul {
     flex-direction: column;
   }
-
   .portfolio li {
     padding-bottom: 20px;
   }
-
   .contact {
     text-align: center;
     padding-bottom: 30px;
   }
-
-
 }*/
 
 @media (min-width:320px) {
-.col-1{width:8.33333%}
-.col-2{width:16.66666%}
-.col-3,.w3-quarter{width:100%}
-.col-4,.w3-third{width:100%}
-.col-5{width:41.66666%}
-.col-6,.w3-half{width:100%}
-.col-7{width:58.33333%}
-.col-8,.w3-twothird{width:66.66666%}
-.col-9,.w3-threequarter{width:74.99999%}
-.col-10{width:83.33333%}
-.col-11{width:91.66666%}
-.col-12{width:99.99999%}
-	
-	.hero {
-    min-height: 80vh;
-  }
-
   .hero-content h1 {
     font-size: 2rem;
     padding-top: 30%;
@@ -569,16 +583,7 @@ footer i {
     padding-bottom: 50px;
   }
 
-  .portfolio ul {
-    flex-direction: column;
-  }
-
   .portfolio li {
     padding-bottom: 20px;
-  }
-
-  .contact {
-    text-align: center;
-    padding-bottom: 30px;
   }
 }
