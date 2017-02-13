@@ -489,3 +489,50 @@ footer i {
 
 
 }
+
+@media only screen and (min-width: 325px) and (max-width: 499px) {
+  .col-3 {
+    width: 100%;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .hero {
+    min-height: 80vh;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    padding-top: 30%;
+  }
+
+  .hero button {
+    font-size: 0.75rem;
+    padding: 10px 16px;
+  }
+
+  .features p {
+    padding-bottom: 50px;
+  }
+
+  .portfolio ul {
+    flex-direction: column;
+  }
+
+  .portfolio li {
+    padding-bottom: 20px;
+  }
+
+  .contact {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+
+}
