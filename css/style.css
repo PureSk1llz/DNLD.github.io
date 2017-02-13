@@ -6,8 +6,14 @@
 }
 
 /* Navigation */
-#mobile-menu-btn{
-display: none;
+a#mobile-menu-btn{
+	display: block;
+	background: #333;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 0;
+	margin: 25px 0 0;
 }
 
 .logo {
@@ -432,12 +438,16 @@ footer i {
 
 /*** Media Queries * * */
 @media only screen and (min-width: 1280px) {
+	#mobile-menu-btn{
+		display: none;
+}
+	
   .col-3 {
-  width:25%;
+  	width:25%;
   }
   
-.col-4 {
-  width:33.33%;
+	.col-4 {
+ 	 width:33.33%;
   }
   
 .col-6 {
