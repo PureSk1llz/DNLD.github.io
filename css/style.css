@@ -152,8 +152,8 @@ button:focus {
                      rgba(20,20,20, .7)),
                      url("../images/features.jpg");
   background-color: #d9dce1;
-  background-size: contain;
-  background-position: left;
+  background-size: cover;
+  background-position: 80% 50%;
   background-repeat: no-repeat;
   text-align: center;
   overflow: hidden;
@@ -457,6 +457,11 @@ footer i {
     font-size: 1rem;
     padding: 10px 16px;
   }
+	
+	.features {
+		background-size: cover;
+		background-position: left;
+	}
 
   .features p {
     padding-bottom: 50px;
