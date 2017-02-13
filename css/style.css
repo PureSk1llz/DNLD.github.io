@@ -540,10 +540,10 @@ footer i {
 @media (min-width:601px) {
 .col-1{width:8.33333%}
 .col-2{width:16.66666%}
-.col-3,.w3-quarter{width:24.99999%}
-.col-4,.w3-third{width:33.33333%}
+.col-3,.w3-quarter{width:100%}
+.col-4,.w3-third{width:100%}
 .col-5{width:41.66666%}
-.col-6,.w3-half{width:49.99999%}
+.col-6,.w3-half{width:100%}
 .col-7{width:58.33333%}
 .col-8,.w3-twothird{width:66.66666%}
 .col-9,.w3-threequarter{width:74.99999%}
