@@ -549,4 +549,36 @@ footer i {
 .col-9,.w3-threequarter{width:74.99999%}
 .col-10{width:83.33333%}
 .col-11{width:91.66666%}
-.col-12{width:99.99999%}}
+.col-12{width:99.99999%}
+	
+	.hero {
+    min-height: 80vh;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    padding-top: 30%;
+  }
+
+  .hero button {
+    font-size: 0.75rem;
+    padding: 10px 16px;
+  }
+
+  .features p {
+    padding-bottom: 50px;
+  }
+
+  .portfolio ul {
+    flex-direction: column;
+  }
+
+  .portfolio li {
+    padding-bottom: 20px;
+  }
+
+  .contact {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
