@@ -48,7 +48,7 @@ nav {
 
 /* Typography */
 h1 {
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   color: #ffffff;
@@ -570,7 +570,6 @@ footer i {
 
 @media (min-width:320px) {
   .hero-content h1 {
-    font-size: 2rem;
     padding-top: 30%;
   }
 
