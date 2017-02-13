@@ -443,7 +443,7 @@ footer i {
 
 }
 
-@media only screen and (min-width: 500px) and (max-width: 759px) {
+/* @media only screen and (min-width: 500px) and (max-width: 759px) {
   .col-3 {
     width: 100%;
   }
@@ -535,7 +535,7 @@ footer i {
   }
 
 
-}
+}*/
 
 @media (min-width:601px) {
 .col-1{width:8.33333%}
