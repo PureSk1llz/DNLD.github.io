@@ -183,7 +183,7 @@ button:focus {
   background: linear-gradient(
                      rgba(20,20,20, .5),
                      rgba(20,20,20, .5)),
-                     url("../images/about.jpeg");
+                     url("../images/about.jpg");
   background-size: cover;
   height: 400px;
   padding-top: 100px;
@@ -352,7 +352,7 @@ button:focus {
   background: linear-gradient(
                      rgba(20,20,20, .5),
                      rgba(20,20,20, .5)),
-                     url("../images/facts.jpeg");
+                     url("../images/facts.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
