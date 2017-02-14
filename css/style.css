@@ -37,15 +37,14 @@ nav {
 }
 
 #navigation {
-	display:: none;
-  margin: 15px 10px 0 0;
+	width: 100%;
+	display: none;
   float: right;
   font-weight: 700;
 }
 
 #navigation a {
   text-decoration: none;
-  padding-right: 15px;
 }
 
 #navigation a:hover {
@@ -53,7 +52,7 @@ nav {
 }
 
 #navigation ul li {
-	display: inline;
+	display: block;
 }
 
 /* Typography */
@@ -447,8 +446,18 @@ footer i {
 }
 	
 	#navigation {
+		width: auto;
 		display: block;
+ 		margin: 15px 10px 0 0;
 	}
+	
+	#navigation a {
+		padding-right: 15px;
+	}
+	
+	#navigation ul li {
+	display: inline;
+}
 	
 	.logo {
   margin: 10px 0 0 10px;
