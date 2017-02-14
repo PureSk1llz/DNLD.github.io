@@ -76,11 +76,11 @@ header {
 
 a#mobile-menu-btn {
 	display: block;
-	background: #000000;
+	background: #fff;
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 10px 0 0 100px;
+	margin: 10px 0 0 100px;
 }
 
 .logo {
