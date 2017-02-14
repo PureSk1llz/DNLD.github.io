@@ -76,7 +76,7 @@ nav {
 
 /* Typography */
 h1 {
-  font-size: 1rem;
+  font-size: 2rem;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   color: #ffffff;
@@ -84,7 +84,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
@@ -116,8 +116,8 @@ button {
   border-radius: 10em;
   border: 2px solid #3498DB;
   background-color: #3498DB;
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 400;
   color: #ffffff;
   text-transform: uppercase;
   -webkit-transition: all 0.8s;
@@ -519,6 +519,10 @@ footer i {
   .features p {
     padding-bottom: 50px;
   }
+	
+	.about h3 {
+		font-size: 2rem;
+	}
 
   .portfolio ul {
     flex-direction: row;
