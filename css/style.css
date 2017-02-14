@@ -552,6 +552,60 @@ footer i {
 
 
 @media only screen and (min-width: 980px) and (max-width: 1279px) {
+		a#mobile-menu-btn {
+		display: none;
+}
+	
+	#navigation {
+		width: auto;
+		display: block;
+ 		margin: 15px 10px 0 0;
+		background: none;
+	}
+	
+	#navigation a {
+		padding-right: 15px;
+	}
+	
+	#navigation ul li {
+	display: inline;
+	border-bottom: none;
+}
+	
+	.logo {
+  margin: 10px 0 0 10px;
+  float: left;
+	}
+	
+  .col-3 {
+  	width:25%;
+  }
+  
+	.col-4 {
+ 	 width:33.33%;
+  }
+  
+.col-6 {
+  width:50%;
+  }
+	
+	.hero {
+    min-height: 100vh;
+  }
+
+  .hero-content h1 {
+    font-size: 5rem;
+    padding-top: 20px;
+  }
+
+  .hero button {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+	
+	.features {
+		background-size: cover;
+		background-position: left;
 
 }
 
