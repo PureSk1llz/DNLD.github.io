@@ -228,6 +228,10 @@ button:focus {
   color: #ffffff;
 }
 
+#features .row {
+	padding-bottom: 30px;
+}
+
 .features-spacer {
   width: 90%;
   margin: 0 auto;
