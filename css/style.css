@@ -21,6 +21,22 @@
 	display: block;
 }
 
+/* Navigation Burger Flip */
+/* Fancy Button */
+
+/* Top and Bottom Line */
+#mobile-menu-btn span:before, #mobile-menu-btn span:after {
+	position: absolute;
+	content: '';
+}
+
+#mobile-menu-btn, #mobile-menu-btn span:before, #mobile-menu-btn span:after {
+	width: 30px;
+	height: 6px;
+	background-color: #ffffff;
+	display: block;
+}
+
 #mobile-menu-btn span:before {
 	margin-top: -12px;
 }
