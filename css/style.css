@@ -5,18 +5,30 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Navigation Burger Flip */
+a#mobile-menu-btn:hover span:before {
+	margin-top: 0;
+	-webkit-transform: rotate(45deg); transform: rotate(45deg);
+	-webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
+}
+a#mobile-menu-btn:hover span:after {
+	margin-top: 0;
+	-webkit-transform: rotate(-45deg); transform: rotate(-45deg);
+	-webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
+}
+
 /* Navigation */
 header {
 	background: #000000;
 }
 
-a#mobile-menu-btn{
+a#mobile-menu-btn {
 	display: block;
 	background: #000000;
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 10px 0 0 60px;
+	padding: 10px 0 0 100px;
 }
 
 .logo {
@@ -52,12 +64,14 @@ nav {
 }
 
 #navigation ul {
- 	padding: 15px 60px 50px;
+ 	padding: 15px 100px 50px;
 }
 
 #navigation ul li {
 	display: block;
 	border-bottom: 1px solid #333;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 /* Typography */
