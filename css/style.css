@@ -446,7 +446,7 @@ footer i {
 
 /*** Media Queries * * */
 @media only screen and (min-width: 1280px) {
-	#mobile-menu-btn{
+	a#mobile-menu-btn {
 		display: none;
 }
 	
@@ -454,6 +454,7 @@ footer i {
 		width: auto;
 		display: block;
  		margin: 15px 10px 0 0;
+		background: none;
 	}
 	
 	#navigation a {
@@ -462,6 +463,7 @@ footer i {
 	
 	#navigation ul li {
 	display: inline;
+	border-bottom: none;
 }
 	
 	.logo {
