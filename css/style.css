@@ -34,6 +34,7 @@ nav {
 }
 
 #navigation {
+	display:: none;
   margin: 15px 10px 0 0;
   float: right;
   font-weight: 700;
