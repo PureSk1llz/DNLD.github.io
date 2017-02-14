@@ -6,9 +6,6 @@
 }
 
 /* Navigation Burger Flip */
-/* Fancy Button */
-
-/* Top and Bottom Line */
 #mobile-menu-btn span:before, #mobile-menu-btn span:after {
 	position: absolute;
 	content: '';
@@ -28,26 +25,31 @@
 	margin-top: 12px;
 }
 
-#mobile-menu-btn:hover span {
-	background-color: rgba(255,255,255,0.0);
-	-webkit-transition-delay: 0.2s; transition-delay: 0.2s;
-}
 #mobile-menu-btn span:before {
 	-webkit-transition-property: margin, -webkit-transform; transition-property: margin, transform;
 	-webkit-transition-duration: 0.2s; transition-duration: 0.2s;
 	-webkit-transition-delay: 0.2s, 0s; transition-delay: 0.2s, 0s;
 }
-#mobile-menu-btn:hover span:before {
-	margin-top: 0;
-	-webkit-transform: rotate(45deg); transform: rotate(45deg);
-	-webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
-}
+
 #mobile-menu-btn span:after {
 	-webkit-transition-property: margin, -webkit-transform; transition-property: margin, transform;
 	-webkit-transition-duration: 0.2s; transition-duration: 0.2s;
 	-webkit-transition-delay: 0.2s, 0s; transition-delay: 0.2s, 0s;
 }
-#mobile-menu-btn:hover span:after {
+
+/** Toggle Class **/
+#mobile-menu-btn.open span {
+	background-color: rgba(255,255,255,0.0);
+	-webkit-transition-delay: 0.2s; transition-delay: 0.2s;
+}
+
+#mobile-menu-btn.open span:before {
+	margin-top: 0;
+	-webkit-transform: rotate(45deg); transform: rotate(45deg);
+	-webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
+}
+
+#mobile-menu-btn.open span:after {
 	margin-top: 0;
 	-webkit-transform: rotate(-45deg); transform: rotate(-45deg);
 	-webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
