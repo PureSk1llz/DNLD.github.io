@@ -522,6 +522,10 @@ footer i {
 		background: none;
 	}
 	
+	#navigation ul {
+		padding-top: 3px;
+	}
+	
 	#navigation a {
 		padding-right: 15px;
 	}
