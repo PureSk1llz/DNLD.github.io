@@ -33,3 +33,12 @@ Header set Cache-Control "max-age=216000, private"
 #</FilesMatch>
 </IfModule>
 # END Cache-Control-Headers
+
+
+# BEGIN Last-Modified-Headers
+<IfModule mod_headers.c>
+<FilesMatch "\.(json|pdf|swf|bmp|gif|jpeg|jpg|png|svg|tiff|ico|flv|js)$">
+Header Set Last-Modified "Fri, 01 Jan 2013 12:00:00 GMT"
+</FilesMatch>
+</IfModule>
+# END Last-Modified-Headers
