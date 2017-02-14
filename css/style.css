@@ -14,7 +14,7 @@
 	content: '';
 }
 
-#mobile-menu-btn, #mobile-menu-btn span:before, #mobile-menu-btn span:after {
+#mobile-menu-btn span, #mobile-menu-btn span:before, #mobile-menu-btn span:after {
 	width: 30px;
 	height: 6px;
 	background-color: #ffffff;
