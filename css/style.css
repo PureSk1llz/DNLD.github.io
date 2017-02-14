@@ -202,7 +202,7 @@ button:focus {
 /*** Hero ***/
 .hero {
   background-image: url(https://static.pexels.com/photos/70232/pexels-photo-70232.jpeg);
-  min-height: 60vh;
+  min-height: 80vh;
   background-size: cover;
   text-align: center;
 	background-position: 50% 50%;
