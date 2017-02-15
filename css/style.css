@@ -632,6 +632,10 @@ footer i {
 	border-bottom: none;
 }
 	
+	#navigation ul {
+		padding: 0;
+	}
+	
 	.logo {
   margin: 10px 0 0 10px;
   float: left;
