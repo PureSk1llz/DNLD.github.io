@@ -666,7 +666,7 @@ footer i {
     text-align: left;
     padding-bottom: 30px;
     overflow: hidden;
-    width: 90%;
+    width: 80%;
     max-height: 450px;
     margin: 0 auto;
   }
@@ -742,6 +742,10 @@ footer i {
 	
 	#features .row {
 		padding-bottom: 0;
+	}
+	
+	.contact {
+		max-width: 80%;
 	}
 
 @media only screen and (min-width: 760px) and (max-width: 979px) {
