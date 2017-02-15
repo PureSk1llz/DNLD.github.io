@@ -508,6 +508,11 @@ button:focus {
   padding-bottom: 50px;
 }
 
+.contact a {
+  color: #000000;
+  text-transform: none;
+}
+
 .container {
   max-width: 1140px;
 }
@@ -574,54 +579,54 @@ footer i {
 /*** Media Queries * * */
 @media only screen and (min-width: 1280px) {
 
-/* Navigation */	
+/* Navigation */
 	a#mobile-menu-btn {
 		display: none;
 }
-	
+
 	#navigation {
 		width: auto;
 		display: block;
  		margin: 15px 10px 0 0;
 		background: none;
 	}
-	
+
 	#navigation ul {
 		padding-top: 3px;
 	}
-	
+
 	#navigation a {
 		padding-right: 15px;
 	}
-	
+
 	#navigation ul li {
 	display: inline;
 	border-bottom: none;
 }
-	
+
 	.logo {
   margin: 10px 0 0 10px;
   float: left;
 	}
-	
+
 	/* Layout */
   .col-3 {
   	width:25%;
   }
-  
+
 	.col-4 {
  	 width:33.33%;
   }
-  
+
 .col-6 {
   width:50%;
   }
-	
+
 	/* Hero */
 	.hero {
     min-height: 100vh;
   }
-	
+
 	.hero-content {
 		padding-top: 20%;
 	}
@@ -634,22 +639,27 @@ footer i {
     font-size: 1.5rem;
     padding: 10px 16px;
   }
-	
+
 	/* Features */
 	.features {
 		background-size: cover;
 		background-position: left;
 	}
 
+  #features .row {
+    padding-bottom: 0;
+    padding-top: 50px;
+  }
+
   .features p {
     padding-bottom: 50px;
   }
-	
+
 	/* About */
 	.about h3 {
 		font-size: 2rem;
 	}
-	
+
 	.profile {
 		height: 300px;
 	}
@@ -674,7 +684,7 @@ footer i {
     max-height: 450px;
     margin: 0 auto;
   }
-  
+
   .contact h2 {
     padding-bottom: 50px;
   }
@@ -686,44 +696,44 @@ footer i {
 		a#mobile-menu-btn {
 		display: none;
 }
-	
+
 	#navigation {
 		width: auto;
 		display: block;
  		margin: 15px 10px 0 0;
 		background: none;
 	}
-	
+
 	#navigation a {
 		padding-right: 15px;
 	}
-	
+
 	#navigation ul li {
 	display: inline;
 	border-bottom: none;
 }
-	
+
 	#navigation ul {
 		padding: 0;
 	}
-	
+
 	.logo {
   margin: 10px 0 0 10px;
   float: left;
 	}
-	
+
   .col-3 {
   	width:25%;
   }
-  
+
 	.col-4 {
  	 width:33.33%;
   }
-  
-	.col-6 {		
+
+	.col-6 {
  	 	width:50%;
   }
-	
+
 	.hero {
     min-height: 100vh;
   }
@@ -737,17 +747,17 @@ footer i {
     font-size: 1rem;
     padding: 10px 16px;
   }
-	
+
 	.features {
 		background-size: cover;
 		background-position: left;
 		padding-top: 80px;
 }
-	
+
 	#features .row {
 		padding-bottom: 0;
 	}
-	
+
 	.contact {
 		max-width: 80%;
 		margin: 0 auto;
