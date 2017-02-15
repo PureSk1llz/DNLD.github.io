@@ -556,10 +556,13 @@ footer i {
 	.hero {
     min-height: 100vh;
   }
+	
+	.hero-content {
+		padding-top: 20%;
+	}
 
   .hero-content h1 {
     font-size: 5rem;
-    padding-top: 20px;
   }
 
   .hero button {
