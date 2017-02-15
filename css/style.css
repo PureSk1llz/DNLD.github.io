@@ -115,7 +115,7 @@ nav {
 /* Typography */
 h1 {
   font-size: 2rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: 0.5rem;
@@ -164,6 +164,11 @@ button {
 button a {
 	text-decoration: none;
 	color: #3498DB;
+	font-family: 'Raleway', sans-serif;
+}
+
+button a:hover {
+	color: #ffffff;
 }
 
 button:hover {
@@ -201,7 +206,10 @@ button:focus {
 
 /*** Hero ***/
 .hero {
-  background-image: url(https://static.pexels.com/photos/70232/pexels-photo-70232.jpeg);
+  background: linear-gradient(
+                     rgba(20,20,20, .4),
+                     rgba(20,20,20, .4)),
+											url(https://static.pexels.com/photos/70232/pexels-photo-70232.jpeg);
   min-height: 80vh;
   background-size: cover;
   text-align: center;
