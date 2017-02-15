@@ -649,8 +649,8 @@ footer i {
  	 width:33.33%;
   }
   
-.col-6 {
-  width:50%;
+	.col-6 {		
+ 	 	width:50%;
   }
 	
 	.hero {
@@ -670,8 +670,12 @@ footer i {
 	.features {
 		background-size: cover;
 		background-position: left;
-
+		padding-top: 80px;
 }
+	
+	#features .row {
+		padding-bottom: 0;
+	}
 
 @media only screen and (min-width: 760px) and (max-width: 979px) {
   .hero h1 {
