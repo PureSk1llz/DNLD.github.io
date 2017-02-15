@@ -476,7 +476,7 @@ button:focus {
 }
 
 /*** Contact ***/
-.contact {
+/**.contact {
   text-align: center;
   margin: 0 auto;
   overflow: hidden;
@@ -495,6 +495,54 @@ button:focus {
 
 .contact h2 {
   padding-bottom: 30px;
+}**/
+
+.contact {
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.contact h2 {
+  padding-bottom: 50px;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.map {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
+
+.contact .row.col-6 {
+  margin-left: 50%;
+}
+
+.contact-box {
+  padding: 36px 24px;
+  background-color: white;
+  -webkit-box-shadow: 4px 6.9px 40px rgba(36,37,38,0.2);
+  -moz-box-shadow: 4px 6.9px 40px rgba(36,37,38,0.2);
+  box-shadow: 4px 6.9px 40px rgba(36,37,38,0.2);
+  text-align: center;
+  position: relative;
+}
+
+.contact-box .col-6 {
+  float: left;
+}
+
+.contact-box .col-12:after {
+    content: " ";
+    display: block;
+    clear: both;
 }
 
 /*** Footer ***/
