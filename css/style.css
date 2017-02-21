@@ -224,6 +224,10 @@ button:focus {
   padding-bottom: 30px;
 }
 
+.hero a {
+  text-decoration: none;
+}
+
 /*** Features ***/
 .features {
   background: linear-gradient(
@@ -592,7 +596,7 @@ footer i {
 	}
 
 	#navigation ul {
-		padding-top: 3px;
+		padding: 3px 0 0 0;
 	}
 
 	#navigation a {
@@ -628,11 +632,12 @@ footer i {
   }
 
 	.hero-content {
-		padding-top: 20%;
+		padding-top: 15%;
 	}
 
   .hero-content h1 {
     font-size: 5rem;
+    letter-spacing: 1rem;
   }
 
   .hero button {
@@ -738,9 +743,12 @@ footer i {
     min-height: 100vh;
   }
 
+  .hero-content {
+    padding-top: 15%;
+  }
+
   .hero-content h1 {
     font-size: 5rem;
-    padding-top: 20px;
   }
 
   .hero button {
